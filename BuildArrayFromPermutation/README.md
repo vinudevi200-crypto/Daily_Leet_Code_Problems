@@ -1,4 +1,4 @@
-# Build Array from Permutation-Day 1
+# Build Array from Permutation - Day 1
 
 ## Problem Solved
 
