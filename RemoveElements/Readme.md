@@ -1,4 +1,4 @@
-# Remove Element-Day 3
+# Remove Element - Day 3
 
 ## Problem
 
