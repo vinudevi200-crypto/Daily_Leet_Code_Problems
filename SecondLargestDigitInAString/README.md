@@ -1,4 +1,4 @@
-# Second Largest Digit in a String
+# Second Largest Digit in a String - Day 2
 
 ## Problem
 Given a string `s`, return the second largest numerical digit that appears in the string. If it does not exist, return `-1`.
