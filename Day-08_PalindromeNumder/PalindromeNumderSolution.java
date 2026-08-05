@@ -1,4 +1,3 @@
-PalindromeNumderSolution.java
 
 class Solution {
     public boolean isPalindrome(int x) {
