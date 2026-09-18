@@ -4,17 +4,20 @@
 
 Given the head of a singly linked list, determine whether the linked list contains a cycle.
 
-A cycle exists when a node's `next` pointer points back to a previous node in the linked list.
+A cycle exists in a linked list when a node can be reached again by continuously following the `next` pointer.
 
-Return `true` if a cycle exists, otherwise return `false`.
+Return:
+
+- `true` → if the linked list contains a cycle
+- `false` → if the linked list does not contain a cycle
 
 ---
 
-## 📝 Example
+## 🧠 Understanding the Problem
 
-### Example 1
-
-**Input:**
+Consider this linked list:
 
 ```text
-head = [3,2,0,-4], pos = 1
+1 → 2 → 3 → 4
+    ↑         ↓
+    └─────────┘
