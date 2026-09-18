@@ -1,31 +1,22 @@
-LeetCode 142 – Linked List Cycle II
-Problem Statement
+# LeetCode 142 – Linked List Cycle II
 
-Given the head of a linked list, return the node where the cycle begins. If there is no cycle, return null.
+## 📌 Problem Statement
 
-Examples
+Given the head of a linked list, determine if the linked list contains a cycle.
 
-Example 1
-Input: head = [3,2,0,-4], pos = 1
-Output: tail connects to node index 1
+If a cycle exists, return the node where the cycle begins. If there is no cycle, return `null`.
 
-Example 2
-Input: head = [1,2], pos = 0
-Output: tail connects to node index 0
+---
 
-Example 3
-Input: head = [1], pos = -1
-Output: no cycle
+## 💡 Approach
 
-Key Concepts
-Linked List
-Two Pointers
-Slow and Fast Pointers
-Floyd's Cycle Detection Algorithm
-Cycle Detection
-Constant Space
-LeetCode Details
-Problem: 142. Linked List Cycle II
-Difficulty: Medium
-Language: Java
-Topic: Linked List
+This solution uses **Floyd's Cycle Detection Algorithm** (Tortoise and Hare Algorithm).
+
+- `slow` pointer moves one step at a time.
+- `fast` pointer moves two steps at a time.
+- If `slow` and `fast` meet, a cycle exists.
+- After detecting the cycle, reset `slow` to `head`.
+- Move both pointers one step at a time.
+- The node where they meet is the starting node of the cycle.
+
+---
