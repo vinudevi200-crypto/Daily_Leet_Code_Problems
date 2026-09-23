@@ -1,10 +1,15 @@
-🚀 LeetCode Day — Add Two Numbers
+🚀 LeetCode #2 — Add Two Numbers
 
-Solved LeetCode 2: Add Two Numbers using Linked Lists.
+Another step forward in my DSA journey! 💻
 
-#🔹 Used carry to handle sums greater than 9
-#🔹 Traversed both linked lists simultaneously
-#🔹 Created the result list using a dummy node
-#🔹 Practiced Linked List traversal and node manipulation
+Solved **Add Two Numbers** using Java and Linked Lists.
 
-#LeetCode #Java #LinkedList #DSA #Coding #ProblemSolving #100DaysOfCode
+✨ What I practiced:
+• Traversing two Linked Lists together
+• Handling carry values during addition
+• Creating a new Linked List using a dummy node
+• Understanding node connections and pointer movement
+
+Every problem is helping me understand DSA a little better and improve my problem-solving skills. 📈
+
+#LeetCode #Java #DSA #LinkedList #ProblemSolving #CodingJourney #LearningInPublic
