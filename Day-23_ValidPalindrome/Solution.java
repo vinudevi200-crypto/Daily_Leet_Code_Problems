@@ -1,30 +1,27 @@
 class Solution {
-    public boolean isValid(String s) {
-        Stack<Character> stack=new Stack<>();
-        for (int i=0;i<s.length();i++){
-            char ch= s.charAt(i);
-            if(ch=='('||ch=='['||ch=='{'){
-                stack.push(ch);
-            }
-            else{
-                
-                if(stack.isEmpty()){
-                    return false;
-                }
-                char  top=stack.pop();
-                if(ch==')' && top!='('){
-                    return false;
-                }
-                if(ch==']'&& top!='['){
-                    return false;
-                }
-                if(ch=='}' && top!='{'){
-                    return false;
-                }
+    public boolean isPalindrome(String s) {
+        int left=0;
+        int right=s.length()-1;
+        while(left<right){
+            if(!Character.isLetterOrDigit(s.charAt(left))){
+                 left++;
+                continue;
+               
             }
 
+            if(!Character.isLetterOrDigit(s.charAt(right))){
+                 right--;
+                continue;
+                
+            }
+
+            if(Character.toLowerCase(s.charAt(left))!=Character.toLowerCase(s.charAt(right))){
+                return false;
+            }
+            
+            left++;
+            right--;
         }
-        return stack.isEmpty();
-        
+        return true;
     }
 }
